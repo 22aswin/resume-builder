@@ -1,0 +1,63 @@
+/* src/components/PreviewStyles.css */
+
+.resume-preview {
+  width: 350px;
+  min-height: 400px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Classic Template */
+.resume-preview.classic {
+  font-family: 'Times New Roman', serif;
+  border: 1px solid #aaa;
+  color: #222;
+}
+
+.resume-preview.classic h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.resume-preview.classic h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.resume-preview.classic .resume-section {
+  margin-top: 15px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+/* Modern Template */
+.resume-preview.modern {
+  font-family: 'Segoe UI', sans-serif;
+  border-left: 6px solid #7c3aed;
+  background: #fdfbff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  color: #333;
+}
+
+.resume-preview.modern h1 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #7c3aed;
+}
+
+.resume-preview.modern h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.resume-preview.modern .resume-section {
+  margin-top: 15px;
+  background: #f3e8ff;
+  padding: 12px;
+  border-radius: 6px;
+}

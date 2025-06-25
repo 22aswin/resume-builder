@@ -1,0 +1,70 @@
+/* Common.css */
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3e8ff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.auth-card {
+  background: white;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.auth-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #5b21b6;
+  margin-bottom: 0.5rem;
+}
+
+.auth-subtitle {
+  color: #6b21a8;
+  margin-bottom: 1.5rem;
+  font-size: 15px;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.auth-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.auth-form button[type="submit"]:hover {
+  background-color: #6d28d9;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: #7c3aed;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 13px;
+}

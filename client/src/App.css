@@ -1,0 +1,47 @@
+/* App.css */
+
+/* Global resets and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3e8ff;
+  color: #333;
+}
+
+.container {
+  padding: 40px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Common layout */
+.form-stage {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.export-btn-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+  color: #444;
+}
+

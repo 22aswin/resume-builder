@@ -1,0 +1,50 @@
+/* src/components/TemplateSelector.css */
+
+.template-selector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.template-selector-wrapper h2 {
+  font-size: 28px;
+  color: #5b21b6;
+  margin-bottom: 30px;
+}
+
+.template-card-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.template-card {
+  background-color: white;
+  border: 2px solid #c4b5fd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.template-card:hover {
+  background-color: #f3e8ff;
+  border-color: #7c3aed;
+  transform: scale(1.05);
+}
+
+.template-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #4c1d95;
+}
+
+.template-card p {
+  font-size: 14px;
+  color: #444;
+}

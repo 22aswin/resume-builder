@@ -1,0 +1,23 @@
+/* src/components/ExportButton.css */
+
+.export-btn {
+  padding: 10px 20px;
+  background-color: #7c3aed; /* purple-600 */
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.export-btn:hover {
+  background-color: #5b21b6; /* purple-700 */
+  transform: translateY(-1px);
+}
+
+.export-btn:active {
+  transform: scale(0.97);
+}
